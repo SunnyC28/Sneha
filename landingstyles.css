@@ -3,7 +3,9 @@ body
 {
     margin: 0px;
     padding:1% 10%;
-    background-image: image("Images/Paint-Splash-HD-Desktop-Wallpaper-18192.jpg");
+    background-image: image("Sneha/Images/Paint-Splash-HD-Desktop-Wallpaper-18192.jpg");
+                       
+
     
     background-size: cover;
     background-repeat: no-repeat;
