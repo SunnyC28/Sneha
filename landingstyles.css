@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body
+{
+    margin: 0px;
+    padding:1% 10%;
+    background-image: url('images/Paint-Splash-HD-Desktop-Wallpaper-18192.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+ 
+}
+
+
+
+nav h1{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: black 5px 5px 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(129, 129, 129);
+}
+nav h3:hover{
+    color: #2f90e6;
+   
+
+}
+
+.test{
+   display: flex;
+   height: fit-content;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+
+.content{
+    width:35%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.img-cont{
+    height: 390px;
+    width: 60%;
+
+    border-radius: 0 25px 0 25px;
+    border: 5px white solid;
+}
+
+.img-cont img{
+    height: 99%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 25px 0 25px;
+
+}
+
+.img-cont:hover{
+    transform: translateY(-10px);
+    transition: all 0.1s linear;
+
+}
+.msg{
+    width: 70%;
+    text-align: center;
+    color: #2f90e6;
+    font-weight: bolder;
+}
+
+hr{
+    height: 3px;
+    border: 0px solid;
+    background-color:#5cb0fa;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body
+{
+
+    margin: 0px;
+    padding:1% 10%;
+    background-image: url('images/wp3589868.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 130px;
+ 
+}
+
+
+
+nav h1{
+    font-size: 2em;
+    color: rgb(47,144,230);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(129, 129, 129);
+}
+nav h3:hover{
+    color: #2f90e6;
+   
+
+}
+
+.cont{
+    display: flex;
+    width: 100%;
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #2f90e6;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+
+}
+
+
+.img-cont{
+    width: 350px;
+    border-radius: 30px 0px 30px 0px;
+    border: 7px solid rgb(221, 221, 221);
+    transition: all 0.1s linear;
+
+}
+
+.img-cont img{
+    height: 99%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.img-cont:hover{
+    transform: translateY(-10px);
+    transition: all 0.1s linear;
+}
+
+h1{
+    margin: 0px;
+}
+
+li{
+    list-style:circle;
+    margin-top: 10px;
+}
+
+
+.info2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 10px solid #2f90e6;
+   
+}
+
+footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(47,144,230);
+  color: white;
+  text-align: center;
+}
+
+.hr-ver{
+  
+  
+
+    width: 5px;
+    background-color: rgb(47,144,230);
+}
+
+.info1 hr{
+    height: 2px;
+    background-color: #2f90e6;
+}
