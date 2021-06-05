@@ -31,11 +31,13 @@ nav h1{
 
 a{
     text-decoration: none;
+    color:rgb(129, 129, 129);
 }
 
 a:visited{
     color: rgb(129, 129, 129);
 }
+
 nav h3:hover{
     color: #2f90e6;
    
