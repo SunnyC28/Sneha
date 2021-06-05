@@ -4,7 +4,7 @@ body
 
     margin: 0px;
     padding:1% 10%;
-    background-image: url('images/wp3589868.jpg');
+    background-image: url('./images/wp3589868.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
