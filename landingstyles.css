@@ -3,7 +3,7 @@ body
 {
     margin: 0px;
     font-size: 12px;
-    background-image: url('images/Paint-Splash-HD-Desktop-Wallpaper-18192.jpg');
+    background-image: url('./Images/Paint-Splash-HD-Desktop-Wallpaper-18192.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
