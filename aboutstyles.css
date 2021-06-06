@@ -3,7 +3,7 @@ body
 {
     font-size: 12px;
     margin: 0px;
-     background-image: url('images/wp3589868.jpg');
+     background-image: url('./Images/wp3589868.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
