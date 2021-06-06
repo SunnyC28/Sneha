@@ -2,47 +2,47 @@
 body
 {
     margin: 0px;
-    padding:1% 10%;
-    background-image: url("./Images/Paint-Splash-HD-Desktop-Wallpaper-18192.jpg");
-                       
-
-    
+    font-size: 12px;
+    background-image: url('images/Paint-Splash-HD-Desktop-Wallpaper-18192.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 
 nav
 {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 4px;
+    padding: 2em 20em;
  
 }
 
 
 
 nav h1{
-    font-size: 2em;
+    font-size: 2rem;
     color: rgb(255, 255, 255);
     text-shadow: black 5px 5px 10px;
 }
 
+nav h3{
+    font-size: 1rem;
+}
 a{
     text-decoration: none;
-    color:rgb(129, 129, 129);
 }
 
 a:visited{
     color: rgb(129, 129, 129);
 }
-
 nav h3:hover{
     color: #2f90e6;
-   
-
 }
+
 
 .test{
    display: flex;
@@ -52,6 +52,9 @@ nav h3:hover{
    align-items: center;
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
+   padding: 0 20em;
+   box-sizing: border-box;
+
 }
 
 
@@ -66,15 +69,13 @@ nav h3:hover{
 }
 
 .img-cont{
-    height: 390px;
-    width: 60%;
-
+  
+    width: 80%;
     border-radius: 0 25px 0 25px;
     border: 5px white solid;
 }
 
 .img-cont img{
-    height: 99%;
     width: 100%;
     object-fit: cover;
     border-radius: 0 25px 0 25px;
@@ -87,14 +88,80 @@ nav h3:hover{
 
 }
 .msg{
-    width: 70%;
+    width: 80%;
+    font-size: 1rem;
     text-align: center;
     color: #2f90e6;
     font-weight: bolder;
+}
+
+.msg h1{
+    font-size: 3rem;
+    margin: 0px;
 }
 
 hr{
     height: 3px;
     border: 0px solid;
     background-color:#5cb0fa;
+}
+
+
+@media (max-width:675px){
+        
+    body{
+        padding: 1em;   
+        background-size: cover;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 15px;
+    
+        border: 5px yellow solid;     
+        padding: 0 1em;
+    }
+
+    nav h3{
+        font-size: 1.2rem;
+        letter-spacing: 15px;
+    }
+    nav h3,nav h1,body,.msg,hr{
+        /* color: rgb(255, 236, 64); */
+        color: rgb(223, 238, 13);
+
+    }
+
+    nav h3:hover{
+        color: white;
+    }
+    .test{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding:0 1.5em;
+    }
+
+    .content,.img-cont,.img-cont img{
+        width: 100%;
+      
+    }
+
+    .msg h1{
+        font-size: 3rem;
+    }
+
+    .msg p{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    hr{
+        background-color: rgb(255, 236, 64);
+    }
+
+    .img-cont img{
+        width: 100%;
+    }
+    
 }
